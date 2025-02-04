@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Url = "http://localhost:3030/articles";
+const Url = "https://examen-back-three.vercel.app/articles";
 
 export const obtenerTodos = async () => {
     try{
