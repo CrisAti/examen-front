@@ -19,7 +19,7 @@ const ObtenerDatos = () =>{
                 {datos.map((dato)=>(
                     <li key={dato._id}> 
                         <h2>{dato.producto} </h2>
-                        <p>La descripcion del articulo es: {dato.precioAnterior}</p>
+                        <p>El precio anterior es: {dato.precioAnterior}</p>
                         <p>Su precio actual es: {dato.precioActual}</p>
                         <p>El porcentaje de inflacion es: {dato.porcentajeInflacion}</p>
                         <p>La descripcion del articulo es: {dato.descripcion}</p>
